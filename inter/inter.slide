@@ -1,0 +1,221 @@
+Interdisciplinary Applications of Computer Science
+3 Nov 2014
+
+Robin Eklind
+
+# === [ Disposition ] ===
+
+* Disposition
+
+- Bridging the disciplines
+- Seeking inspiration from nature
+- Applying computational concepts in other fields
+
+# === [ Bridging the Disciplines ] ===
+
+* Bridging the Disciplines
+
+# --- [ Bioinformatics ] ---
+
+* Bioinformatics
+
+Bioinformatics is a fusion between Biology and Computer Science. It uses computational methods to facilitate DNA sequencing and gene correlation, two massive tasks which were impractical before the advancement of computers.
+
+.image inc/dna.jpg 350 467
+
+* The Human Genome Project
+
+The Human Genome Project took about 15 years to complete and involved the sequencing of the 30,000 genes which make up the human genome. It showcased the true power of exponential growth!
+
+.image inc/exponential.png 279 361
+
+_"People_declared_the_Human_Genome_Project_a_failure_halfway_through,_when_one_percent_had_been_decoded_--_they_said_it'd_take_700_years._My_reaction_was,_no,_we're_almost_done._It_was_finished_seven_years_later."_ - [[http://www.wired.co.uk/magazine/archive/2013/05/singularity-university/on-the-exponential-curve][Raymond Kurzweil]].
+
+* Rosalind
+
+[[http://rosalind.info/][Rosalind]] is a platform for learning bioinformatics and programming through problem solving.
+
+.image inc/rosalind.png 454 684
+
+# --- [ Biocomputers ] ---
+
+* Biocomputers
+
+Biocomputers uses biological molecules (such as DNA and proteins) to perform computational calculations and logical operations. The potential of _in_vivo_ (Latin for _within_the_living_) computers are incredible!
+
+* Treatment of Cancer with Biocomputers
+
+.image inc/biocomp.jpg 500 500
+
+# === [ Seeking Inspiration from Nature ] ===
+
+* Seeking Inspiration from Nature
+
+# --- [ Artificial Intelligence ] ---
+
+* Artificial Intelligence
+
+- Disciplines such as Biology, Neuroscience and Cognitive Psychology gives us key insights into the inner workings of the brain; and through mimicry we are able to create more advanced artificial brains.
+
+- One such insight is the usage of feature detectors within the brain. Feature detectors are clusters of nerve cells specialized at detecting a given feature, such as horizontal lines or the shapes of faces.
+
+* Kittens Who Can't Perceive Horizontal Lines
+
+- In an experiment a group of kittens were raised in such an environment that they never develop feature detectors for horizontal lines.
+
+.link https://www.youtube.com/watch?v=QzkMo45pcUo#t=367 Colin Blakemore: Researching the visual cortex
+
+.image inc/orientation.png 400 313
+
+* The Facial Recognition Area
+
+- In an experiment the facial recognition area of a patient suffering from epilepsy was electrically stimulated to establish its use.
+.link https://www.youtube.com/watch?v=5Yj3nGv0kn8#t=343 Nancy Kanwisher: A neural portrait of the human mind (watch the talk on YouTube)
+
+* Google's Self-Taught Neural Network
+
+Google connected 16,000 processors into a neural network, mimicking the synaptic connections between nerve cells in the brain. The network contained 1 billion connections in total, which is a hundred thousandth of the number of connections in an adult human brain.
+
+After feeding hundreds of hours of YouTube footage into the neural network it had gained the ability to recognize kittens, without ever being told what a cat or kitten was.
+
+.image inc/cat_detection.jpg 250 288
+
+# --- [ Evolutionary X ] ---
+
+* Evolutionary X
+
+- Evolutionary Compilers
+- Evolutionary Sound Creation
+- ...
+
+* Evolutionary Sound Creation
+
+.image inc/perfect_small.png 209 619
+.caption A comment on [[https://soundcloud.com/][SoundCloud]]: _"Face_just_melted._Perfect!!"_.
+
+.image inc/perfect_zoom_2x.png 250 220
+
+# === [ Applying Computational Concepts in Other Fields ] ===
+
+* Applying Computational Concepts in Other Fields
+
+# --- [ Whitelisting of Molecules in the Bloodstream ] ---
+
+* Whitelisting of Molecules in the Bloodstream
+
+By applying the concept of whitelisting it could be possible to create a filter within the bloodstream similar to those used by anti-virus software. The filter would protect vital organs from lethal doses of any one molecule.
+
+.image inc/bloodstream.jpg 380 649
+
+# --- [ Neural Interfaces ] ---
+
+* Neural Interfaces
+
+Neural interfaces creates communication channels between electronic components and the brain.
+
+Brain-computer interfaces:
+
+- Surface electrodes
+- Electroencephalography (EEG)
+- Magnetoencephalography (MEG)
+- Functional magnetic resonance imaging (fMRI)
+
+Computer-brain interfaces:
+
+- High-intensity focused ultrasound (HIFU)
+- Transcranial magnetic stimulation
+
+* Surface Electrodes
+
+.image inc/electrodes.jpg 500 607
+
+* Electroencephalography (EEG)
+
+.image inc/eeg.jpg 423 289
+
+* Magnetoencephalography (MEG)
+
+.image inc/meg.jpg 500 332
+
+* Functional Magnetic Resonance Imaging (fMRI)
+
+.image inc/fmri.jpg 500 751
+
+* High-Intensity Focused Ultrasound (HIFU)
+
+.image inc/hifu.jpg 400 443
+
+* Transcranial Magnetic Stimulation (TMS)
+
+.image inc/tms.jpg 500 430
+
+* Today's Capabilities of Neural Interfaces
+
+Thought-controlled prosthetic limb with sensory feedback.
+
+.image inc/prosthesis.jpg 320 480
+
+* Thought-Control of a Rat's Tail
+
+An experiment was conducted at Harvard last year in which a human was able to control the movement of a rat's tail by thoughts alone.
+
+Through a brain-computer interface (EEG in this case) the thoughts _up_ and _down_ were read from the human brain. These commands where transferred through a computer-brain interface (HIFU in this case) to specific areas of the rat's brain which control motor activity.
+
+Neither the human nor the rat required any surgery for the experiment.
+
+* Direct Brain-to-Brain Communication in Humans
+
+In a similar experiment conducted at the University of Washington researchers have showcased a non-invasive human-to-human brain interface, using EEG for input and TMS for output. In the experiment TMS was used to stimulate the left motor cortex, which controls hand movements, effectively causing the test subject to involuntarily move his right index finger.
+
+.link https://www.youtube.com/watch?v=rNRDc714W5I#t=65 Direct Brain-to-Brain Communication in Humans: A Pilot Study
+
+* Bionic Eyes
+
+Bionic eyes encode visual stimuli and send it directly to the brain through the optic nerve. Similar to that of video encoding, only the difference between frames (moments in time) is transferred. Thus less information is required to be sent, and the brain can more easily adapt to changes in the environment.
+
+.image inc/bionic_eye.jpg 250 453
+
+* Visualizing Thoughts
+
+In an experiment test subjects were shown hundreds of hours of YouTube footage while their brain activity was recorded using fMRI (functional magnetic resonance imaging). This data was later used to reconstruct images from brain activity.
+
+.image inc/minds_eye.png 300 542
+
+.link https://www.youtube.com/watch?v=SjbSEjOJL3U#t=255 Mary Lou Jepsen on imaging the mind's eye (watch the talk on YouTube)
+
+* Future Possibilities of Neural Interfaces
+
+- Taste recipes online
+- Ultraportable devices
+- Collective memory
+- Extended repertoire of senses
+- Transmission of feelings and the state of mind
+- ...
+
+# === [ links ] ===
+
+* Links
+
+These slides have been released into the public domain and are available online at:
+
+.link http://tiny.cc/intertalk
+
+* Image Sources
+
+.link http://content.science20.com/files/images/110901142056-large.jpg biocomp.jpg
+.link http://cdn2.ubergizmo.com/wp-content/uploads/2011/12/bionic-eye.jpg bionic_eye.jpg
+.link http://www.human-resonance.org/quantum_trapping14.jpg bloodstream.jpg
+.link https://1.bp.blogspot.com/-VENOsYD1uJc/T-nkLAiANtI/AAAAAAAAJWc/2KCTl3OsI18/s1600/cat+detection.jpeg cat.jpg
+.link http://www.lifescienceconferences.net/wp-content/uploads/2014/01/DNAHelixPixels.jpg dna.jpg
+.link https://upload.wikimedia.org/wikipedia/commons/b/bf/EEG_cap.jpg eeg.jpg
+.link http://www.myopro.nl/images/electrodes.jpg electrodes.jpg
+.link http://www.kurzweilai.net/images/chart05.jpg exponential.png
+.link http://cdni.wired.co.uk/1240x826/s_v/shutterstock_94210177.jpg fmri.jpg
+.link http://www.csrp.riken.jp/images/ppt_j/j03/image_O4.jpg hifu.jpg
+
+* Image Sources
+
+.link https://upload.wikimedia.org/wikipedia/commons/e/e6/NIMH_MEG.jpg meg.jpg
+.link http://computervisionblog.files.wordpress.com/2013/06/catexperiment.gif orientation.png
+.link http://a5.mndcdn.com/image/upload/t_next_gen_article_large_480/rnanpsvwcv7b6aun5iq3.jpg prosthesis.jpg
+.link https://thereseborchardblogdotcom.files.wordpress.com/2014/09/princeton-edu.jpg tms.jpg

@@ -1,0 +1,183 @@
+Computer Security
+1 Dec 2014
+
+Robin Eklind
+
+# === [ Disposition ] ===
+
+* Disposition
+
+- Computer Security
+- Security Vulnerabilities
+- Secure Development Practises
+- Security Principles
+
+# === [ Computer Security ] ===
+
+* Computer Security
+
+* What is Computer Security?
+
+Computer security refers to the protection of computer systems and the information (i.e. data) they store or access. The computer system may be a web site, an application, a single computer or an entire network. The information may be any kind of data, such as documents, images, user information (username and password), credit card details, and so on.
+
+* Information Security
+
+Information security is an important aspect of computer security. Limiting unauthorized access to information is just as important as making information available to authorized users. The guiding principles of information security are summarized below:
+
+- Confidentiality: keep information private (e.g. encryption, authentication)
+- Integrity: detect and prevent alteration of information (e.g. checksums)
+- Availability: keep information available to authorized users (e.g. uptime)
+
+* Features of Secure Systems
+
+Secure systems do what they are designed to do, and nothing more. If we can "trick" a system into doing something it wasn't designed to do, it is not secure.
+
+# === [ Security Vulnerabilities ] ===
+
+* Security Vulnerabilities
+
+* Common Mistakes
+
+It is vital to understand what causes security related issues in order to mitigate and pro-actively prevent them. Mitigation techniques (e.g. patching) reduces the severity of vulnerabilities after they have been discovered. In contrast pro-active methods aims to prevent security vulnerabilities from being introduced in the first place by focusing on security throughout the development process.
+
+To get a better understanding, lets take a look at some common mistakes which causes security vulnerabilities.
+
+* Web Vulnerabilities
+
+A live demonstration says more than a 1000 pictures.
+
+* Cross Site Script (XSS)
+
+.image inc/xss.png
+
+* Session Hijacking (Cookie Stealing)
+
+It is common for attackers to try and gain access to an authenticated user's cookies as they would contain session information. With access to this information an attacker could sign in as the user without knowledge of the user's password.
+
+XSS attack example:
+
+.code inc/cookie.html
+
+* XSS Mitigation
+
+Encode special HTML characters of untrusted data (e.g. user input) before including it in an HTML page.
+
+Vulnerable example:
+
+.code inc/xss_vuln.php
+
+Mitigated example:
+
+.code inc/xss_safe.php
+
+* Remote Code Execution (RCE)
+
+Embedded PHP code in the comment section of an image.
+
+.image inc/comment.png
+
+* Local File Inclusion (LFI)
+
+.image inc/lfi.png 328 814
+
+LFI attack example:
+
+    rce.php?page=../forum/img/avatars/8.jpg&cmd=cat /etc/passwd
+
+* LFI Mitigation
+
+Use a whitelist for allowed file names.
+
+Vulnerable example:
+
+.code inc/lfi_vuln.php
+
+Mitigated example:
+
+.code inc/lfi_safe.php
+
+* SQL-injection
+
+.image inc/sqli.png 280 835
+
+SQL-injection attack:
+
+    profile.php?id=2 limit 0 union all select username, 2, password, 4, 5, 6, 7, 8,
+    9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
+    29, 30, 31, 32, 33, 34, 35, 36, 37 from users where username='joe'
+
+* Password Hashes
+
+Hashes are created using cryptographic one-way functions. As the hash functions are one-directional it shouldn't be possible to retrieve the original password from a given hash, which is why we use them for security.
+
+However, there exists massive dictionaries on the Internet which maps from hash values to known plaintext passwords.
+
+.image inc/hash_lookup.png
+
+* SQL-injection Mitigation
+
+The two primary SQL-injection mitigation techniques include input sanitation and the use of parameterized queries. The first is easier, the latter more secure.
+
+Vulnerable example:
+
+.code inc/sqli_vuln.php /START/,/STOP/
+
+Mitigation example using the first method:
+
+.code inc/sqli_safe_1.php /START/,/STOP/
+
+Mitigation example using the second method:
+
+.code inc/sqli_safe_2.php /START/,/STOP/
+
+# TODO: Add Session Fixation and HTTP response splitting (CRLF-injection) vulnerabilities.
+
+* Application Vulnerabilities
+
+- Buffer overflows
+- Integer underflows and overflows
+- Race conditions
+
+* Network Vulnerabilities
+
+- Weak encryptions: WEP
+- Design flaws: protocols with too much trust
+
+# === [ Secure Development Practises ] ===
+
+* Secure Development Practises
+
+* Development Best Practises
+
+Many of the best practises for general software development are just as relevant to secure development, if not even more so.
+
+- Conduct code reviews where at least two people looks at the code before it is submitted.
+- Add unit tests which validate implementation correctness.
+- Fix known bugs before adding new features.
+- Use a revision control system which tracks code changes (hg, git).
+- Make use of continuous integration which builds and tests the entire code base after each commit. Very useful to spot regressions early!
+
+# === [ Security Principles ] ===
+
+* Security Principles
+
+* Security Principles
+
+- Defence in depth
+- Principle of least privileges
+- Don't rely on security through obscurity
+- Never trust user input
+
+* Never Trust User Input
+
+This security principle is so critical that it is worth repeating!
+
+No user input can be trusted before it has been properly validated and sanitized.
+
+# === [ links ] ===
+
+* Links
+
+These slides have been released into the public domain and are available online at:
+
+.link http://tiny.cc/sectalk

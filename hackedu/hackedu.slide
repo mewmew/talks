@@ -1,0 +1,118 @@
+Hacking Education
+16 Mar 2015
+
+Robin Eklind
+
+* Disposition
+
+- What is a hacker?
+- How might a hacker's education look like?
+- The hacker mentality
+
+* What is a hacker?
+
+Let begin with clearing up a common misconception often propagated by the media.
+
+Hackers are _not_ computer criminals.
+
+A computer *hacker* is simply a person with a specific _skill_set_.
+
+A *cracker* is someone who uses these skills to commit criminal activities (e.g. breaking into computer systems).
+
+Furthermore, there exist hackers in many fields unrelated to computing (e.g. architecture).
+
+This talk explores the implications of hacking when viewed as a _mindset_, a different way of looking at and interacting with the world.
+
+* How might a hacker's education look like?
+
+One of the students I met at Portsmouth College had a fascinating background and a different take on education. In the interest of privacy I will refer to this student using the pseudonym Eve.
+
+This is the story of his or her education.
+
+* Eve's background
+
+- Grew up without a computer
+- Built a computer from spare parts at school
+- Years of experimentation and tinkering with computers; growing enthusiasm for computers
+- Enjoys taking things apart to figure out how they work
+
+* Eve at college
+
+- Quick at understanding new topics; relates to prior knowledge
+- Upgrades problems to make them more challenging (e.g. "implement bubble sort" becomes "... and reason about its time complexity")
+- Builds intuition from trial and error; generalizes findings to form and test hypothesis
+- Absent from some lectures to participate in Mathematics competitions
+
+* Eve and essays
+
+- Troubled by the format of some assessments (e.g. 30+ page essays for software artefacts)
+- Most students have an example report on the left side of the screen and their own report on the right side of the screen, using a process of copy-adapt-paste to write their reports
+- Eve never felt comfortable including text just for the sake of it and could spend hours refining text segments to improve their clarity, consistency and brevity
+
+* Eve's spare time
+
+- Built an Android application which facilitates the learning of Japanese
+- Very excited when the first copy sold to a guy in the Netherlands after months of coding
+- _Subjective_observation_: Eve's motivation to write the app was more related to learning and process of creation than money making
+
+* A hacker's education
+
+- Mentorships: Experienced hackers teaching newcomers about the hacker way. Emphasis on challenging yourself, seeking and sharing knowledge: _Information_belongs_to_the_people_
+- Hackschooling: Design your own education
+- Hackerspaces: Places to meet people who enjoy tinkering and work on projects together
+
+* Hackerspaces
+
+.image inc/hsbxl.jpg 500 _
+.caption *HSBXL* _Hackerspace_Brussels_
+
+* Tinkering
+
+.image inc/tinker.jpg 500 667
+.caption Electronic components to tinker with.
+
+* Door hack
+
+.image inc/door_hack.jpg 500 375
+.caption The door which speaks, chats on IRC, unlocks through the Wi-Fi and reminds you to do the recycling.
+
+* The hacker mentality
+
+- Celebrate mistakes
+- Learn things you are not meant to know (e.g. bar codes, undocumented features)
+- Make it misbehave! Find cleaver ways of using things in unintended ways
+- Differentiate between syntax and semantics. Unpack buzzwords (e.g. cloud); how does it actually work?
+- Challenge yourself and question assumptions
+	"It is secure by design"   ->   "But is it secure by implementation?"
+	"It is impossible"         ->   "Challenge accepted!"
+
+* Mistakes are good
+
+It is inevitable to make mistakes when experimenting; learn from them!
+
+.image inc/fail_good.jpg 450 _
+.caption Fail successfully.
+
+* Be creative (make it misbehave)
+
+.image inc/scanner_hack.jpg 500 667
+.caption Book scanner built using windscreen wipers, hair dryers, plexiglass and two cameras.
+
+* Anything can be hacked
+
+- Hacking architecture (Paul Grover)
+
+_Anti-social_parks_: Forces a new way of thinking; how may we use public spaces in unintended ways?
+
+This thought hack removed the limitations forced upon students thinking (e.g. tick each box on a list of requirements) and allowed them to be creative and challenge expectations!
+
+* A growing crowd of hackers
+
+.image inc/growing_crowd.jpg 500 667
+.caption Hackers are people too.
+
+* Links
+
+These slides have been released into the public domain and are available online at:
+
+.link http://tiny.cc/hackedu
